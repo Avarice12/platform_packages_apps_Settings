@@ -19,6 +19,7 @@
     <string name="syberia_version">Syberia version</string>
     <string name="syberia_version_default">Unknown</string>
     <string name="keywords_syberia_version">syberia version</string>
+    <string name="maintainer">Maintainer</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
