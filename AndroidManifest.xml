@@ -4395,5 +4395,16 @@
         <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_launch_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingLaunchActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
         <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_finished_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingFinishedActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
 
+        <!-- Jitter Test Activity -->
+        <activity
+            android:name="com.syberia.settings.fragments.uibench.JitterTestActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 </manifest>
